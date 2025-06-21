@@ -1,0 +1,9 @@
+Time Complexity of Operations (using HashMap<String, Product>)
+
+Operation	Method Used	              Average Time Complexity	                     Worst-Case Time Complexity
+
+Add	    put(productId, product)	                 O(1)	                              O(n) (rare hash collision)
+Update	    get(productId) + field update	         O(1)	                              O(n) (rare hash collision)
+Delete	    remove(productId)	                         O(1)	                              O(n) (rare hash collision)
+Search	    get(productId)	                         O(1)	                              O(n) (rare hash collision)
+
